@@ -1,4 +1,4 @@
 # create-fast-repository
 repository
 <br>
-author -farzana sher
+author -farzana-sher
