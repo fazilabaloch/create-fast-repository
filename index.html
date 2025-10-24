@@ -8,31 +8,71 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <header class="bg-sky-100 h-fit w-full">
-        <nav class="bg-gray-950 text-white px-3 ">
-           <ul class=" flex justify-between items-center gap-16 py-4 text-sm">
-                <a class="flex gap-1 items-center"><i class="text-3xl fa-brands fa-apple"></i>      
-                <li><a href="#" class="text-2xl">Developer</a></li></a>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Develop</a></li>
-                <li><a href="#">Distribute</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Account</a></li>
-                <i class="fa-solid fa-magnifying-glass"></i>
-          </ul>
-         </nav>
-    </header>
-    <main>
-        <section class="overflow-hidden relative  ">
-                <img src="istockphoto-1451457624-1024x1024.jpg" class=" object-cover w-900 relative  h-fit" alt="logo">
-            <h1 class="text-2xl font-medium text-3xl absolute">Meet with Apple</h1>
-            <p class="text-8xl m-90 left-0 bottom-9  bottom-60 whitespace-nowrap text-slate-100 absolute sm:text-8xl md:text-sm"> join us for new Developer aceivities all over the world and online.</p>
-           <div class="flex gap-60 items-center m-8 text-sm">
-            <p class="absolute  m-8 bottom-90 left-12 text-slate-950 text-sm font-semibold sm:left-40 md:left-12 ">Browse in-person activites > </p>
-            <p class="absolute m-8 bottom-90  left-60 text-slate-950 text-sm font-semibold sm:left-100 md:left-60">Browse online activites ></p></div>
+    <header class="p-3 flex bg-black text-gray-400 justify-between items-center ">
+                       
+               <span class="flex gap-1  items-center px-12 hover:text-gray-100 sm:items-center"><i class="text-4xl fa-brands fa-apple"></i>      
+                <a href="#" class="text-3xl font-medium ">Developer</span></a>
+                <ul class="hidden md:flex gap-20 items-center mx-20">
+                <li><a href="#" class="font-medium hover:text-slate-100">News</a></li>
+                <li><a href="#" class="font-medium hover:text-slate-100">Discover</a></li>
+                <li><a href="#" class="font-medium hover:text-slate-100">Design</a></li>
+                <li><a href="#" class="font-medium hover:text-slate-100">Develop</a></li>
+                <li><a href="#" class="font-medium hover:text-slate-100">Distribute</a></li>
+                <li><a href="#" class="font-medium hover:text-slate-100">Support</a></li>
+                <li><a href="#" class="font-medium hover:text-slate-100">Account</a></li>
+                <i class="fa-solid fa-magnifying-glass hover:text-gray-100"></i>
+              </ul>
+            <i class="fa-solid fa-bars text-gray-100 mx-2 px-12"></i>
+        </header>
+        <!-- header end -->
+         <!-- stating main -->
+    <main class="bg-black">
+
+
+
+
+        <section class="relative w-full h-{600px} bg-black">
+  <img src="istockphoto-1451457624-1024x1024.jpg" alt="logo" class="w-full h-full object-cover">
+
+  <div class="absolute inset-0 flex flex-col items-center mb-2 justify-center bg-black/40 text-center px-4">
+    <h2 class="text-white text-5xl font-bold mb-4 ">Meet with Apple</h2>
+      <p class="text-gray-200 text-lg max-w-2xl mb-6"> join us for new Developer aceivities all over the world and online.</p>
+          <div class="flex gap-5 text-white">
+            <p class=" ">Browse in-person activites > </p>
+            <p class="">Browse online activites ></p>
+        </div>
+        </div>
+        </div>
         </section>
-    </main>
+ 
+    <!-- main end -->
+     <!-- div itmes stated -->
+       <div class="mt-2 px-5 flex gap-3">
+        <!-- div1 -->
+        <div class="relative w-[800px]  h-{600px}">
+              <img src="istockphoto-1451457624-1024x1024.jpg" alt="logo" class="w-full h-full object-cover">
+
+  <div class="absolute inset-0 flex flex-col items-center mb-2 justify-center bg-black/40 text-center px-4">
+    <h2 class="text-white text-5xl font-bold mb-4 ">code along with the foundation models framework</h2>
+      <p class="text-gray-200 text-lg max-w-2xl mb-6">learn how to tap into the on-device large language model that powers apple intelligence.</p>
+            <img src="istockphoto-1451457624-1024x1024.jpg" class="h-30 w-40" alt="">
+        </div>
+        </div>
+        <!-- div1 -->
+           <div class="relative w-[800px]  h-{600px}">
+              <img src="istockphoto-1451457624-1024x1024.jpg" alt="logo" class="w-full h-full object-cover">
+
+  <div class="absolute inset-0 flex flex-col items-center mb-2 justify-center bg-black/40 text-center px-4">
+    <h2 class="text-white text-5xl font-bold mb-4 ">code along with the foundation models framework</h2>
+      <p class="text-gray-200 text-lg max-w-2xl mb-6">learn how to tap into the on-device large language model that powers apple intelligence.</p>
+            <img src="istockphoto-1451457624-1024x1024.jpg" class="h-30 w-40" alt="">
+        </div>
+        </div>
+        </div>
+      
+         <!-- div nomber 2 -->
+    
+       </div>
+          </main>
 </body>
 </html>
